@@ -6,7 +6,15 @@ const cors = require('cors');
 const app = express();
 const port = 8000;
 
-app.use(cors());
+const db = {
+    events: [],
+    reminders: [],
+    users: {}
+
+};
+
+app.use(cors()); // Allow CORS on all routes
+require('./app/routes')(app, db);
 app.listen(port, () => {
     console.log('We are live on port :' + port);
 });
