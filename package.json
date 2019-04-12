@@ -4,7 +4,7 @@
   "description": "Generates an API for Promise Timeline to consume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/nydame/promise-timeline-api#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "mongodb": "2.2.16"
   },
