@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/nydame/promise-timeline-api/issues"
   },
-  "homepage": "https://github.com/nydame/promise-timeline-api#readme"
+  "homepage": "https://github.com/nydame/promise-timeline-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }
