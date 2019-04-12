@@ -1,0 +1,23 @@
+{
+  "name": "promise-timeline-api",
+  "version": "1.0.0",
+  "description": "Generates an API for Promise Timeline to consume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nydame/promise-timeline-api.git"
+  },
+  "keywords": [
+    "api",
+    "node"
+  ],
+  "author": "Felicia Betancourt <info@go-firefly.com> (https://go-firefly.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nydame/promise-timeline-api/issues"
+  },
+  "homepage": "https://github.com/nydame/promise-timeline-api#readme"
+}
