@@ -5,13 +5,14 @@ const cors = require('cors');
 
 const app = express();
 const port = 8000;
+const db = require('./app/db');
 
-const db = {
-    events: [],
-    reminders: [],
-    users: {}
+// const db = {
+//     events: [],
+//     reminders: [],
+//     users: {}
 
-};
+// };
 
 app.use(cors()); // Allow CORS on all routes
 require('./app/routes')(app, db);
