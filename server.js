@@ -15,6 +15,7 @@ const db = require('./app/db');
 // };
 
 app.use(cors()); // Allow CORS on all routes
+app.use(bodyParser.urlencoded({extended: true})); // Let Express handle URL-encoded forms
 require('./app/routes')(app, db);
 app.listen(port, () => {
     console.log('We are live on port :' + port);
