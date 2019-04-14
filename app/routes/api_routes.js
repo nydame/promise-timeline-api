@@ -13,7 +13,7 @@ module.exports = function(app, db) {
     app.get("/events-reminders", (req, res) => {
         const eventsAndReminders = db.events.concat(db.reminders);
         // res.json(eventsAndReminders.sort((a,b) => a.type < b.type ));
-        res.json(eventsAndReminders.sort(compareObjDate);
+        res.json(eventsAndReminders.sort(compareObjDate));
         res.end();
     });
 
