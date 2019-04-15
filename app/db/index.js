@@ -33,12 +33,12 @@ module.exports = {
     {
       date: "1556740760000",
       event: "1556740800467-1",
-      clientId: "1"
+      message: "Hello John, just a reminder about your court date tomorrow."
     },
     {
       date: "1556740780000",
       event: "1556740900000-1",
-      clientId: "1"
+      message: "Hello John, this is to remind you about your appointment with your case manager."
     }
   ],
   clients: {
